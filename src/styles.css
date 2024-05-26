@@ -1,0 +1,159 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.tog {
+  appearance: none;
+  padding: 8px 16px;
+
+  border-radius: 8px;
+
+  background: radial-gradient(
+      circle 5px,
+      white 100%,
+      transparent calc(100% + 1px)
+    )
+    yellow -8px;
+  transition: 0.3s ease-in-out;
+}
+
+.togg {
+  margin-top: 15px;
+  appearance: none;
+  padding: 16px 32px;
+  border-radius: 16px;
+  background: radial-gradient(
+      circle 12px,
+      white 100%,
+      transparent calc(100% + 1px)
+    )
+    #ccc -16px;
+  transition: 0.3s ease-in-out;
+}
+
+:checked {
+  background-color: yellow;
+  background-position: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 15vw;
+}
+
+nav {
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.swap {
+  justify-content: end;
+}
+.cross {
+  font-size: 20px;
+  padding-left: 80px;
+}
+.toggle {
+  display: flex;
+  height: 25px;
+  align-items: baseline;
+  margin-right: 65px;
+}
+.tog {
+  padding-left: 20px;
+  padding-right: 13px;
+}
+
+.inputField {
+  border: 0px;
+  border-color: none;
+  border-radius: 5px;
+  width: 505vw;
+  font-size: 20px;
+  /* border-color: rgb(191, 191, 194); */
+  background-color: rgb(248, 245, 245);
+  outline: none;
+  text-align: end;
+  margin-left: 0px;
+  /* margin-right: 10vw; */
+}
+
+.balance {
+  display: flex;
+  margin-left: 15vw;
+  width: 65vw;
+}
+.a {
+  margin: 5px;
+  border-radius: 7px;
+  border-color: lightgray;
+  font-size: 15px;
+  padding: 10px;
+}
+button:hover {
+  background-color: rgba(255, 255, 0);
+}
+
+.timeFrame {
+  margin-left: 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 16vw;
+}
+
+.b {
+  border: none;
+  border-color: white;
+  border-radius: 45%;
+  font-size: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.sTog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20px;
+  align-items: baseline;
+  margin-right: 16vw;
+  margin-top: 20px;
+  margin-left: 15vw;
+}
+
+.btnn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vh;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+.bt:hover {
+  background-color: rgb(58, 55, 51);
+  color: aliceblue;
+}
+
+.bt {
+  border: none;
+  font-size: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+
+.inputField:placeholder-shown {
+  text-align: left;
+}
+.footer {
+  margin-top: 7vh;
+  text-align: center;
+}
